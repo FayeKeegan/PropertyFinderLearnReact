@@ -38,6 +38,7 @@ export default class StoryList extends Component<Props> {
     } else {
       return (
         <View style={styles.container}>
+          <Button onPress={() => navigate('ListenModal')} title="Info" />
           {this.state.stories.map(story => (
             <Button
               onPress={() => navigate('PlayStory', { story: story })}
