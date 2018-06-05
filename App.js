@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
-// import { createStore, applyMiddleware } from 'redux';
-// import { logger } from 'redux-logger';
-// import { Provider } from 'react-redux';
-// import Reducers from './reducers/';
-// import LoginForm from './components/LoginForm';
-
 import StoryList from './src/components/StoryList.js';
 import PlayStory from './src/components/PlayStory.js';
 
